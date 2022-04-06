@@ -34,7 +34,7 @@ header nav a:hover {
 
 .game-lancamento {
     font-size: 16px;
-    background: linear-gradient(rgb(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/2d-games-flix/img/kero-blaster-banner.png');
+    background: linear-gradient(rgb(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('https://dan-araujo.github.io/2d-games-flix/img/kero-blaster-banner.png');
     height: 400px;
     background-size: cover;
     display: flex;
