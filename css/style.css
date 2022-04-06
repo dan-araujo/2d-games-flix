@@ -1,0 +1,106 @@
+:root {
+    --verde: #32CD32;
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+.game-lancamento {
+    font-size: 16px;
+    background: linear-gradient(rgb(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/kero-blaster-banner.png');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.game-lancamento .descricao {
+    margin-bottom: 10px;
+    color: #F5FFFA;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 700;
+    color: #A9A9A9;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.game-lancamento .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .70);
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.box-game {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-games {
+    margin-top: 5px;
+}
+
+
+#img1 {
+   height: 392px;
+}
+
