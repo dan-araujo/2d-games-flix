@@ -6,4 +6,4 @@
  - CSS
  - JavaScript
 
-![Imagem do site](img/pagina.png)
+https://dan-araujo.github.io/2d-games-flix/
